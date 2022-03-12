@@ -1,0 +1,7 @@
+numpy
+sklearn
+opencv-python
+tensorflow
+matplotlib
+seaborn
+pyTelegramBotAPI
