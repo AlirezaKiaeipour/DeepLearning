@@ -13,5 +13,9 @@
     - [x]  Convolutional Neural Network(CNN)
 
   - Accuracy & Loss:
+
+      Algorithm | Accuracy | Loss |
+    ------------- | ------------- | ------------- |
+    Personal model | **100.00 %** | **0.0719** |
     
    ![2](https://user-images.githubusercontent.com/88143329/155209236-90e39484-faf9-4b9d-a3a7-a7ba4cae2d0d.png)
