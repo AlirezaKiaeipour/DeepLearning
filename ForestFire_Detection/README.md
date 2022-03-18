@@ -2,7 +2,7 @@
 
   **Dataset Link:** [Forest Fire](https://www.kaggle.com/phylake1337/fire-dataset)
   
-  **Model Link:** [Model](https://drive.google.com/file/d/1pQdQmLJvhylpFNT-agvt08V2rXLSsPhm/view?usp=sharing)
+  **Model Link:** [Model](https://drive.google.com/drive/folders/1IH3JdcJhfPNjykdqNKpGbkjf0kFA1JVK?usp=sharing)
   
 
   - Forest fire detection 
