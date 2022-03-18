@@ -2,7 +2,7 @@
 
   **Dataset Link:** [Natural](https://drive.google.com/drive/folders/1I7C-KGVJPECn6S4Agz8a3dunI0YMln7t?usp=sharing)
   
-  **Model Link:** [Model](https://drive.google.com/file/d/1w7UiW1jkUn7klOmQZQnQj_FHt93XtIu3/view?usp=sharing)
+  **Model Link:** [Model](https://drive.google.com/drive/folders/1gwBjeP2jeVPDtvwzf8zZYDoLtjcjj0Eu?usp=sharing)
   
 
   - Natural image detection
