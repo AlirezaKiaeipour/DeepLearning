@@ -27,8 +27,8 @@
 
       ```
       pip install requirements.txt
-      python inference.py [--input_model INPUT] [--input_image INPUT]
       
+      python inference.py [--input_model INPUT] [--input_image INPUT]
       ```
       
 
