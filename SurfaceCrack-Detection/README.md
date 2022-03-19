@@ -4,7 +4,7 @@
   
   **Model Link:** [Model](https://drive.google.com/drive/folders/1xi_wiUi9ySejFZQthI4RFSK7pWo5Uq7T?usp=sharing)
 
-  - Surface Crack Detectio using TensorFlow & Keras
+  - Surface Crack Detection using TensorFlow & Keras
     
   - Algorithm:
 
