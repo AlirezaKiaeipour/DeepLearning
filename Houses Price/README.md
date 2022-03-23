@@ -13,7 +13,7 @@
 
   - Loss:
 
-    Algorithm | Loss |
+    Algorithm | MAE Loss |
     ------------- | ------------- |
     MultiChannel | **155890.0938** |
     
