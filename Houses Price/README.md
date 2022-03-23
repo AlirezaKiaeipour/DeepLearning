@@ -3,6 +3,13 @@
   **Dataset Link:** [Houses Price](https://drive.google.com/drive/folders/1Rk415jadJbp5rkbfZQ0WZBikphv12--X?usp=sharing)
 
   - Houses Price Estimation using TensorFlow & Keras
+
+  - Images included:
+    
+     - Bathroom
+     - Bedroom
+     - Frontal
+     - Kitchen
     
   - Algorithm:
 
@@ -20,9 +27,11 @@
 
   - Inference:
 
-      ## RUN
-      You can run  Inference with the following command
 
+      ## RUN
+
+      You can run  Inference with the following command
+      
       ```
       $ pip install requirements.txt
       
