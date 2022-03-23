@@ -6,9 +6,6 @@ import cv2
 from tensorflow.keras.models import load_model
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--input_model",type=str,help="Please Enter path of input model/  Example: model.h5")
-parser.add_argument("--input_scaler",type=str,help="Please Enter path of input scaler/  Example: Scale")
-parser.add_argument("--input_ohe",type=str,help="Please Enter path of input ohe/  Example: ohe")
 parser.add_argument("--input_bedroom",type=int,help="Please Enter number of bedroom")
 parser.add_argument("--input_bathroom",type=int,help="Please Enter number of bathroom")
 parser.add_argument("--input_area",type=int,help="Please Enter number of area")
@@ -16,11 +13,11 @@ parser.add_argument("--input_zipcode",type=int,help="Please Enter number of zipc
 parser.add_argument("--input_image_path",type=str,help="Please Enter path of input image")
 arg = parser.parse_args()
 
-model = load_model(arg.input_model)
+model = load_model("Model/houseprice.h5")
 
-with open(arg.input_scaler,"rb") as f:
+with open("Model/StandardScaler","rb") as f:
     scaler = pickle.load(f)
-with open(arg.input_ohe,"rb") as f:
+with open("Model/LabelBinarizer","rb") as f:
     onehot = pickle.load(f)
 
 info = np.array([[arg.input_bedroom,arg.input_bathroom,arg.input_area,arg.input_zipcode]])
