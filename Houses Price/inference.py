@@ -13,11 +13,11 @@ parser.add_argument("--input_zipcode",type=int,help="Please Enter number of zipc
 parser.add_argument("--input_image_path",type=str,help="Please Enter path of input image")
 arg = parser.parse_args()
 
-model = load_model("Model/houseprice.h5")
+model = load_model("weights/houseprice.h5")
 
-with open("Model/StandardScaler","rb") as f:
+with open("weights/StandardScaler","rb") as f:
     scaler = pickle.load(f)
-with open("Model/LabelBinarizer","rb") as f:
+with open("weights/LabelBinarizer","rb") as f:
     onehot = pickle.load(f)
 
 info = np.array([[arg.input_bedroom,arg.input_bathroom,arg.input_area,arg.input_zipcode]])
