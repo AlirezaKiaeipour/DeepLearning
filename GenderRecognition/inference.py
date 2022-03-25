@@ -11,11 +11,11 @@ arg = parser.parse_args()
 model = load_model(arg.input_model)
 
 image = cv2.imread(arg.input_image)
-image = cv2.resize(image,(299,299))
+image = cv2.resize(image,(224,224))
 image = cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
-image = image / 255.0
-image = image.reshape(1,299,299,3)
+image = image / 255.
+image = np.expand_dims(image,axis=0)
 
 predict = np.argmax(model.predict(image))
-predict = np.where(predict==0,"Organic","Recyclable")
+predict = np.where(predict==0,"Female","Male")
 print(predict)
