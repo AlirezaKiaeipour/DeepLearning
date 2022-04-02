@@ -13,7 +13,7 @@
 
   - Accuracy & Loss:
 
-    Algorithm | Accuracy | Accuracy |
+    Algorithm | Accuracy | Loss |
     ------------- | ------------- | ------------- |
     Personal Model | **87.33 %** | **0.01987** |
     
