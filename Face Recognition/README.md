@@ -32,7 +32,7 @@
 
   - Inference:
 
-
+      **Please Download [Model](https://drive.google.com/drive/folders/1xi_wiUi9ySejFZQthI4RFSK7pWo5Uq7T?usp=sharing)**
 
 
       ```
