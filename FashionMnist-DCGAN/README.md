@@ -13,7 +13,7 @@
 
   - Training:
 
-      You can run  Inference with the following command
+      You can train with the following command
 
       ## RUN
 
