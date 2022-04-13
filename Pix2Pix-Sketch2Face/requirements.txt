@@ -3,4 +3,3 @@ opencv-python
 tensorflow
 PySide6
 matplotlib
-
