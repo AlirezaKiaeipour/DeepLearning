@@ -13,5 +13,19 @@
     - [x]  Convolutional Neural Network(CNN)
 
   - Accuracy & Loss:
+
+    Algorithm | Accuracy | Loss |
+    ------------- | ------------ | ------------- |
+    Personal Model | **98.50 %** | **0.1537** |
     
-   ![6](https://user-images.githubusercontent.com/88143329/155753411-050ff319-bfe3-454d-9dcf-3460c1d4d048.png)
+  - Inference:
+
+      ## RUN
+      You can run  Inference with the following command
+      
+      **Please Download [Model](https://drive.google.com/drive/folders/1IH3JdcJhfPNjykdqNKpGbkjf0kFA1JVK?usp=sharing)**
+
+      ```
+      python inference.py [--input_model INPUT] [--input_image INPUT]
+      ```
+
