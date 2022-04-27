@@ -4,7 +4,7 @@
   
   **Model Link:** [Model](https://drive.google.com/drive/folders/1su0-tyZqkQ9j2a0416W9jI3NvmcHKNRX?usp=sharing)
 
-  - Waste Classification using Transfer Learning
+  - Brain Tumor Classification using Transfer Learning
 
     ![6](https://user-images.githubusercontent.com/88143329/159114823-df6c0bc5-5e46-4bc6-9d7b-e2e5860bc6c6.png)
     
