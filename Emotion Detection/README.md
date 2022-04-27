@@ -26,6 +26,8 @@
       **Please Download [Model](https://drive.google.com/drive/folders/12PZHQGxawpbIkwH4TZz1Z6aF9UXi20pf?usp=sharing)**
 
       ```
+      $ pip install requirements.txt
+      
       python inference_image.py [--input_model INPUT] [--input_image INPUT]
       
       python inference_webcam.py [--input_model INPUT]
