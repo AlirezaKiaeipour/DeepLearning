@@ -37,5 +37,7 @@
       **Please Download [Models](https://drive.google.com/drive/folders/1C44lOwXWsS9uHxB5YyoyQk4kfOoCz96N?usp=sharing)**
 
       ```
+      $ pip install requirements.txt
+      
       python inference.py [--input_model INPUT] [--input_image INPUT]
       ```
