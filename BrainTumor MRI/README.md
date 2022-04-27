@@ -25,7 +25,7 @@
       ## RUN
       You can run  Inference with the following command
       
-      **Please download the [Model](https://drive.google.com/drive/folders/1su0-tyZqkQ9j2a0416W9jI3NvmcHKNRX?usp=sharing) first**
+      **Please Download [Model](https://drive.google.com/drive/folders/1su0-tyZqkQ9j2a0416W9jI3NvmcHKNRX?usp=sharing)**
 
       ```
       $ pip install requirements.txt
