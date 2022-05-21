@@ -12,7 +12,7 @@
     - [x]  Convolutional Neural Network(CNN)
 
 
-  - Accuracy & Loss:
+  - Loss:
 
     Algorithm | Loss |
     ------------- | ------------- |
