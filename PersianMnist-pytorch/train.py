@@ -2,7 +2,7 @@ import argparse
 import torch
 from tqdm import tqdm
 from model import Model
-from data import data
+from dataset import data
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--input_device",type=str,default="cpu",help="Please Enter Your Device -- cpu/cuda")
@@ -27,8 +27,8 @@ class Train:
         return acc
 
     def train_step(self,image,label):
-        image.to(device)
-        label.to(device)
+        image = image.to(device)
+        label = label.to(device)
 
         self.optimizer.zero_grad()
         predict = model(image)

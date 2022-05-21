@@ -3,7 +3,7 @@ import torch
 from tqdm import tqdm
 from google_drive_downloader import GoogleDriveDownloader as gdd
 from model import Model
-from data import data
+from dataset import data
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--input_device",type=str,default="cpu",help="Please Enter Your Device -- cpu/cuda")
@@ -29,8 +29,8 @@ class Test:
         return acc
 
     def test_step(self,image,label):
-        image.to(device)
-        label.to(device)
+        image = image.to(device)
+        label = label.to(device)
 
         predict = model(image)
         loss = self.loss_function(predict,label)
