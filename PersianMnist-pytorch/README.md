@@ -1,5 +1,10 @@
 # Persian Mnist
 
+
+  **Dataset Link:** [Age-utkface](#)
+  
+  **Model Link:** [Model](https://drive.google.com/file/d/1xCok1YEjepCdTwzF7WXoQ6Ts1OcyU65X/view?usp=sharing)
+
   - Persian Mnist using pytorch
 
   - Model:
@@ -9,9 +14,9 @@
 
   - Accuracy & Loss:
 
-    Dataset | Accuracy | Loss |
+    Algorithm | Accuracy | Loss |
     ------------- | ------------- | ------------- |
-    Mnist | **96.09 %** | **1.5009** |
+    Personal Model | **96.09 %** | **1.5009** |
     
 
       ## Installation
