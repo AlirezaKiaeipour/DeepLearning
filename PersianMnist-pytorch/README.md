@@ -1,7 +1,7 @@
 # Persian Mnist
 
 
-  **Dataset Link:** [Age-utkface](#)
+  **Dataset Link:** [PersianMnist](https://drive.google.com/drive/folders/1NNgHrH5bu8ib4z5xciDHdhEP4fmvQv2o?usp=sharing)
   
   **Model Link:** [Model](https://drive.google.com/file/d/1xCok1YEjepCdTwzF7WXoQ6Ts1OcyU65X/view?usp=sharing)
 
