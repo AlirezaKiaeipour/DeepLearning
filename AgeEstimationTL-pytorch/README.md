@@ -1,12 +1,12 @@
-# Persian Mnist
+# Age Estimation
 
 
-  **Dataset Link:** [PersianMnist](https://drive.google.com/drive/folders/1NNgHrH5bu8ib4z5xciDHdhEP4fmvQv2o?usp=sharing)
+  **Dataset Link:** [Age-utkface](https://www.kaggle.com/jangedoo/utkface-new)
   
-  **Model Link:** [Model](https://drive.google.com/file/d/15zd5_zM_xmqlw3EocyRPNQNpZ4vUM38q/view?usp=sharing)
+  **Model Link:** [Model](https://drive.google.com/file/d/1MTcZQVhlZK3Vmy3VMNdD4i0MrdRxmlFA/view?usp=sharing)
 
-  - Persian Mnist using pytorch
-  
+  - Age Estimation using pytorch
+
   - Hyperparameter Tuning using W&B Sweep
 
   - Model:
@@ -14,11 +14,11 @@
     - [x]  Resnet152
 
 
-  - Accuracy & Loss:
+  - Loss:
 
-    Algorithm | Accuracy | Loss |
-    ------------- | ------------- | ------------- |
-    Personal Model | **100.00 %** | **0.00117** |
+    Algorithm | MSE-Loss |
+    ------------- | ------------- |
+    Resnet152 | **25.86** |
     
 
       ## Installation
@@ -33,13 +33,13 @@
      ## Train
            
       ```
-      python train.py [--input_device INPUT] [--input_epochs INPUT]
+      python train.py [--input_path INPUT] [--input_device INPUT] [--input_epochs INPUT]
       ```                             
 
     ## Test
            
       ```
-      python test.py [--input_weights INPUT] [--input_device INPUT]
+      python test.py [--input_path INPUT] [--input_weights INPUT] [--input_device INPUT]
       ```  
       
     ## Inference
