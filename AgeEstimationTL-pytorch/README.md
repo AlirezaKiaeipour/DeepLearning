@@ -6,6 +6,8 @@
   **Model Link:** [Model](https://drive.google.com/file/d/15zd5_zM_xmqlw3EocyRPNQNpZ4vUM38q/view?usp=sharing)
 
   - Persian Mnist using pytorch
+  
+  - Hyperparameter Tuning using W&B Sweep
 
   - Model:
 
