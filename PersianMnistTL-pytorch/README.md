@@ -18,7 +18,7 @@
 
     Algorithm | Accuracy | Loss |
     ------------- | ------------- | ------------- |
-    Personal Model | **100.00 %** | **0.00117** |
+    Resnet152 | **100.00 %** | **0.00117** |
     
 
       ## Installation
