@@ -1,0 +1,10 @@
+torch
+torchvision
+opencv-python==4.4.0.46
+requests
+numpy
+PIL
+tqdm
+gdown
+ninja
+matplotlib
