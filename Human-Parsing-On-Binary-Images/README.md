@@ -1,6 +1,7 @@
 # Human Parsing On Binary Images
 
-![3](https://user-images.githubusercontent.com/88143329/173388379-955ca4e3-d9ad-484b-baae-f8ba8bc221df.png)
+
+![4](https://user-images.githubusercontent.com/88143329/173433548-c6984acb-3348-46c3-ad4e-b2a162582983.png)
 
 
 ## Setup
@@ -40,7 +41,7 @@ Dataset include:
 ```
 
 ```
-python get_dataset.py --path [INPUT_PATH]
+python data_preparator.py --path [INPUT_PATH]
 ```
   
 ## Download Weights
