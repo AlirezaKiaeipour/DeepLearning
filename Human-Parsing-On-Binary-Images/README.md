@@ -68,3 +68,7 @@ By default, the trained model will be saved in ``./log`` directory.
    ```
    python simple_extractor.py --dataset [DATASET] --model-restore [CHECKPOINT_PATH] --input-dir [INPUT_PATH] --output-dir [OUTPUT_PATH]
    ```
+
+## Reference
+  
+https://github.com/GoGoDuck912/Self-Correction-Human-Parsing.git
