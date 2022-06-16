@@ -1,2 +1,0 @@
-model_checkpoint_path: "face_recognition"
-all_model_checkpoint_paths: "face_recognition"
