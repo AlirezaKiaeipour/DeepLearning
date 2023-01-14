@@ -5,7 +5,7 @@ import torchaudio
 import numpy as np
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--voice_path",type=str,default="cpu",help="Please Enter Your Voice Path")
+parser.add_argument("--voice_path",type=str,help="Please Enter Your Voice Path")
 arg = parser.parse_args()
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
