@@ -1,0 +1,5 @@
+numpy
+torch>=1.7.0
+tqdm
+pydub
+
